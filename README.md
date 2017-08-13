@@ -1,10 +1,5 @@
 # Arma layer for spacemacs
 
-
-## Table of Contents
-- [[#description][Description]]
-- [[#install][Install]]
-
 ## Description
 
 Spacemacs layer for Arma mod development
