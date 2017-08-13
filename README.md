@@ -13,6 +13,16 @@ TODO:
 
 ## Install
 
+Clone arma layer to emacs.d private folder:
 ```
 git clone https://github.com/nikolauska/arma-layer.git ~/.emacs.d/private/arma
 ```
+
+Add arma layer to `.spacemacs` configuration layers:
+```emacs-lisp
+dotspacemacs-configuration-layers
+'(
+  arma
+  )
+```
+
