@@ -1,0 +1,25 @@
+#+TITLE: arma layer
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+
+* Description
+
+Layer for Arma mod development
+
+Included:
+- SQF syntax support (v. 1.74)
+
+TODO:
+- PBOProject support
+- Armake support
+
+* Install
+```
+git clone https://github.com/nikolauska/arma-layer.git ~/.emacs.d/private/arma
+```
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =sqf= to the existing =dotspacemacs-configuration-layers= list in this
+file.
